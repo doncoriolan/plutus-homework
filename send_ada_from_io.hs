@@ -47,7 +47,7 @@ payTrace pp2 pp3 = do
 main :: IO ()
 main = do
    putStrLn "Hello Wallet 1! Who would you like to send money to?"
-   putStrLn "Enter a number from 1 to 10"
+   putStrLn "Enter a number from 2 to 10"
    walnum <- getLine
    putStrLn "How much ADA in lovelace would you like to send?"
    pp1 <- getLine
